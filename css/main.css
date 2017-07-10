@@ -115,17 +115,17 @@ header h2 {
 	background: url("/images/why.png") no-repeat top center;
 }
 
-/*.works {*/
-	/*background: url("/images/works_1.png") repeat-x;*/
-/*}*/
+.works {
+	background: url("/images/works_1.png") repeat-x;
+}
 
-/*#works {*/
-	/*background: url("/images/works.png") no-repeat top center;*/
-/*}*/
+#works {
+	background: url("/images/works.png") no-repeat top center;
+}
 
-/*#works .mb {*/
-	/*margin-bottom: 30px;*/
-/*}*/
+#works .mb {
+	margin-bottom: 30px;
+}
 
 /*.guarantee {*/
 	/*background: url("/images/guarantee_1.png") repeat-x;*/
@@ -241,28 +241,28 @@ header h2 {
 	margin: 30px 0 0 212px;
 }
 
-/*#works .site img {*/
-	/*margin-top: 11px;*/
-/*}*/
+#works .site img {
+	margin-top: 11px;
+}
 
-/*#works .site {*/
-	/*background: url("/images/laptop.png") no-repeat center center;*/
-	/*height: 159px;*/
-	/*width: 229px;*/
-	/*margin: 0 auto;*/
-/*}*/
+#works .site {
+	background: url("/images/laptop.png") no-repeat center center;
+	height: 159px;
+	width: 229px;
+	margin: 0 auto;
+}
 
-/*#works .cell {*/
-	/*padding: 0 5px;*/
-/*}*/
+#works .cell {
+	padding: 0 5px;
+}
 
-/*#works .cell:nth-child(1) {*/
-	/*text-align: right;*/
-/*}*/
+#works .cell:nth-child(1) {
+	text-align: right;
+}
 
-/*#works .cell:nth-child(2) {*/
-	/*color: #ab1749;*/
-/*}*/
+#works .cell:nth-child(2) {
+	color: #ab1749;
+}
 
 /*#guarantee .icon {*/
 	/*text-align: right;*/
