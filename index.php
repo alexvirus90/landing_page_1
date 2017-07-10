@@ -14,8 +14,6 @@
     <meta name="keywords" content="заказ лендинга, создание лендинга" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link type="text/css" rel="stylesheet" href="/styles/main.css" />
-    <link type="text/css" rel="stylesheet" href="/styles/animate.css" />
-    <link type="text/css" rel="stylesheet" href="/fancybox/jquery.fancybox.css" />
 		<script type="text/javascript" src="/lib/jquery_3.2.1/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="/js/functions.js"></script>
 
