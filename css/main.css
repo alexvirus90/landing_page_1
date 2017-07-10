@@ -127,13 +127,13 @@ header h2 {
 	margin-bottom: 30px;
 }
 
-/*.guarantee {*/
-	/*background: url("/images/guarantee_1.png") repeat-x;*/
-/*}*/
+.guarantee {
+	background: url("/images/guarantee_1.png") repeat-x;
+}
 
-/*#guarantee {*/
-	/*background: url("/images/guarantee.png") no-repeat top center;*/
-/*}*/
+#guarantee {
+	background: url("/images/guarantee.png") no-repeat top center;
+}
 
 #advantages h2, #steps h2, #why h2, #works h2  {
 	font-family: "RobotoCondensedLight";
@@ -157,9 +157,9 @@ header h2 {
 	margin-top: 85px;
 }
 
-/*#guarantee .button {*/
-	/*margin-top: 22px;*/
-/*}*/
+#guarantee .button {
+	margin-top: 22px;
+}
 
 .button, #popup input[type="submit"] {
 	color: #f9e00b;
@@ -264,12 +264,12 @@ header h2 {
 	color: #ab1749;
 }
 
-/*#guarantee .icon {*/
-	/*text-align: right;*/
-	/*margin-top: 35px;*/
-/*}*/
+#guarantee .icon {
+	text-align: right;
+	margin-top: 35px;
+}
 
-/*#guarantee .guarantee_text {*/
-	/*margin-top: 60px;*/
-	/*text-align: left;*/
-/*}*/
+#guarantee .guarantee_text {
+	margin-top: 60px;
+	text-align: left;
+}
