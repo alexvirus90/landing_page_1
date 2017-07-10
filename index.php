@@ -31,6 +31,27 @@
 </head>
 <body>
 
+	<!-- БЛОК POPUP -->
+
+	<div id="parent_popup">
+		<div id="popup">
+			<div id="popup_close">
+				<img src="images/popup_close.png" alt="Закрыть">
+			</div>
+			<div id="popup_main">
+				<h3>Мы Вам перезвоним<br />через несколько минут</h3>
+				<form action="order.php" name="order" method="post">
+					<div>
+						<input type="text" name="phone" placeholder="Телефон" />
+					</div>
+					<div>
+						<input type="submit" name="order" value="Жду звонка!" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
 	<div id="menu">
 		<a href="#advantages">Наши преимущества</a>
 		<a href="#steps">Порядок работы</a>
@@ -312,6 +333,25 @@
 			<div class="button wow swing">ОСТАВИТЬ ЗАЯВКУ</div>
 		</div>
 	</div>
+
+	<!-- БЛОК FOOTER -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p>Copyright &copy; <?=date("Y") ?>. Все права защищены.</p>
+				</div>
+				<div class="col-md-3">
+					<p>Телефон: +7 (495) 104-45-54</p>
+				</div>
+				<div class="col-md-3">
+					<p>E-mail: info@mysite.ru</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</footer>
 
 	<!--[if lt IE 9]>
 	<script src="lib/html5shiv/es5-shim.min.js"></script>

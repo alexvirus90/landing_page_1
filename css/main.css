@@ -91,48 +91,45 @@ header h2 {
 	text-align: center;
 }
 
-.advantages {
-	background: url("/images/advantages_1.png") repeat-x;
-}
-
 #advantages {
 	background: url("/images/advantages.png") no-repeat top center;
-}
-
-.steps {
-	background: url("/images/steps_1.png") repeat-x;
+	background-size: cover;
 }
 
 #steps {
 	background: url("/images/steps.png") no-repeat top center;
-}
-
-.why {
-	background: url("/images/why_1.png") repeat-x;
+	background-size: cover;
 }
 
 #why {
 	background: url("/images/why.png") no-repeat top center;
-}
-
-.works {
-	background: url("/images/works_1.png") repeat-x;
+	background-size: cover;
 }
 
 #works {
 	background: url("/images/works.png") no-repeat top center;
+	background-size: cover;
 }
 
 #works .mb {
 	margin-bottom: 30px;
 }
 
-.guarantee {
-	background: url("/images/guarantee_1.png") repeat-x;
-}
-
 #guarantee {
 	background: url("/images/guarantee.png") no-repeat top center;
+	background-size: cover;
+}
+
+footer {
+	background: url("/images/bg_footer.png") repeat-x;
+	color: #000;
+	font-size: 90%;
+	height: 44px;
+	padding-top: 10px;
+}
+
+footer p {
+	margin: 0;
 }
 
 #advantages h2, #steps h2, #why h2, #works h2  {
@@ -272,4 +269,68 @@ header h2 {
 #guarantee .guarantee_text {
 	margin-top: 60px;
 	text-align: left;
+}
+
+footer .col-md-4:nth-child(1) {
+	float: left;
+	text-align: left;
+}
+
+footer .col-md-4:nth-child(2), footer .col-md-4:nth-child(3) {
+	float: right;
+	text-align: right;
+}
+
+#parent_popup {
+	background: url("/images/bg_popup.png") repeat;
+	display: none;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+#popup {
+	background: url("/images/popup.png") no-repeat;
+	height: 427px;
+	margin: 50px auto 0;
+	width: 427px;
+}
+
+#popup_close {
+	padding: 19px 19px 0 0;
+	text-align: right;
+}
+
+#popup_close img {
+	cursor: pointer;
+}
+
+#popup h3 {
+	color: #00345d;
+	font-family: "RobotoCondensedLight";
+	margin: 4px 22px 0 0;
+	text-align: center;
+}
+
+#popup input[type="text"] {
+	border-radius: 5px;
+	border: #fff 3px solid;
+	font-size: 120%;
+	height: 48px;
+	margin: 35px 0 0 35px;
+	padding: 0 10px;
+	width: 322px;
+}
+
+#popup input[type="submit"] {
+	background: url("/images/popup_b.png") no-repeat;
+	border: none;
+	height: 68px;
+	margin: 20px 0 0 26px;
+	width: 346px;
+}
+
+#popup input[type="submit"]:hover {
+	background: url("/images/popup_b_hover.png") no-repeat;
 }
