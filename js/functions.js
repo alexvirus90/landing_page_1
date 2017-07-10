@@ -12,7 +12,7 @@ $(document).ready(function() {
 	//Плавный переход через меню по сайту
 	$("#menu a:not(a.order)").on("click", function() {
 		$("html, body").stop().animate({
-			scrollTop: $($(this).attr("href")).offset().top - $("#menu").innerHeight()
+			scrollTop: $($(this).attr("href")).offset().top /*- $("#menu").innerHeight()*/
 		}, DELAY);
 	});
 
