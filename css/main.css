@@ -85,3 +85,49 @@ header h2 {
 	color: #fff;
 	padding-top: 10px;
 }
+
+#advantages, #steps, #why, #works, #guarantee {
+	padding: 1px 0 15px;
+	text-align: center;
+}
+
+.advantages {
+	background: url("/images/advantages_1.png") repeat-x;
+}
+
+#advantages {
+	background: url("/images/advantages.png") no-repeat top center;
+}
+
+#advantages .button {
+	margin-top: 10px;
+}
+
+#steps .button {
+	margin-top: 125px;
+}
+
+#guarantee .button {
+	margin-top: 22px;
+}
+
+.button, #popup input[type="submit"] {
+	color: #f9e00b;
+	cursor: pointer;
+	font-family: "RobotoCondensedLight";
+	font-size: 150%;
+	margin: 0 auto;
+	text-shadow: 1px 1px 2px #000;
+}
+
+.button {
+	background: url("/images/b.png") no-repeat;
+	height: 66px;
+	padding-top: 18px;
+	text-shadow: 1px 1px 2px #000000;
+	width: 517px;
+}
+
+.button:hover {
+	background: url("/images/b_hover.png") no-repeat;
+}

@@ -49,6 +49,47 @@
 		</header>
 	</div>
 
+	<!-- БЛОК ADVANTAGES -->
+
+	<div class="advantages">
+		<div id="advantages">
+			<h2 class="wow flipInX">Наши преимущества</h2>
+			<div class="container">
+				<div class="row wow fadeInDown">
+					<div class="col-md-4">
+						<img src="images/a_1.png" alt>
+						<p>Срок разработки<br />не более 14 дней</p>
+					</div>
+					<div class="col-md-4">
+						<img src="images/a_2.png" alt>
+						<p>Высокое качество работ<br />(портфолио ниже)</p>
+					</div>
+					<div class="col-md-4">
+						<img src="images/a_3.png" alt>
+						<p>Делаем всё под ключ</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="row wow fadeInUp">
+					<div class="col-md-4">
+						<img src="images/a_4.png" alt>
+						<p>Бесплатное создание рекламной<br />кампании в Яндекс.Директ<br />(рекламный бюджет уже входит<br />в стоимость создания лендинга)</p>
+					</div>
+					<div class="col-md-4">
+						<img src="images/a_5.png" alt>
+						<p>Проводим SPLIT-тестирование<br />для достижения максимальной<br />эффективности лендинга</p>
+					</div>
+					<div class="col-md-4">
+						<img src="images/a_6.png" alt>
+						<p>Без предоплаты! </p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="button wow swing">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</div>
+		</div>
+	</div>
+
 	<!--[if lt IE 9]>
 	<script src="lib/html5shiv/es5-shim.min.js"></script>
 	<script src="lib/html5shiv/html5shiv.min.js"></script>
