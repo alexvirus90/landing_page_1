@@ -40,10 +40,14 @@
 		<a class="order" href="#">Оформить заявку</a>
 	</div>
 
-	<header>
-		<h1 class="wow bounceInLeft">Landing Page под ключ</h1>
-		<h2 class="wow bounceInRight">без предоплаты и с гарантией результата</h2>
-	</header>
+	<!-- БЛОК HEADER -->
+
+	<div class="header">
+		<header>
+			<h1 class="wow bounceInLeft">Landing Page под ключ</h1>
+			<h2 class="wow bounceInRight">без предоплаты и с гарантией результата</h2>
+		</header>
+	</div>
 
 	<!--[if lt IE 9]>
 	<script src="lib/html5shiv/es5-shim.min.js"></script>

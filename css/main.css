@@ -1,30 +1,47 @@
-@font-face {
-	font-family: "Intro";
-	src: url("/fonts/Intro.woff");
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
 }
 
-@font-face {
-	font-family: "OSCB";
-	src: url("/fonts/OpenSans-CondBold.woff");
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border: red 3px solid;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+	border: green 3px solid;
 }
 
 body {
 	color: #3d3d3d;
-	font-family: OSCB;
+	font-family: "RobotoRegular", sans-serif;
 	font-size: 13pt;
 	margin: 0;
 	padding: 0;
 }
 
 #menu {
-	background: url("/images/bg_menu.png") repeat-x;
+	background: url("/images/menu_bg_02.png") repeat-x;
 	height: 41px;
 	padding-top: 13px;
 	position: fixed;
 	text-align: center;
 	top: 0;
 	width: 100%;
-	z-index: 200;
+	z-index: 11;
 }
 
 #menu a {
@@ -43,10 +60,14 @@ header, #advantages, #steps, #why, #works {
 
 header {
 	background: url("/images/header.png") no-repeat center center;
-	font-family: Intro;
+	font-family: "RobotoCondensedLight";
 	height: 605px;
-	margin-top: 54px;
+	margin-top: 41px;
 	text-align: center;
+}
+
+.header {
+	background: url("/images/header_01.png") repeat-x;
 }
 
 header h1, header h2 {
@@ -56,8 +77,8 @@ header h1, header h2 {
 header h1 {
 	color: #f9e00b;
 	font-size: 300%;
-	padding-top: 57px;
-	text-shadow: 5px 0 5px #000;
+	padding-top: 60px;
+	text-shadow: 5px 0 5px #000;			/*тень*/
 }
 
 header h2 {
