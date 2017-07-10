@@ -99,6 +99,28 @@ header h2 {
 	background: url("/images/advantages.png") no-repeat top center;
 }
 
+.steps {
+	background: url("/images/steps_1.png") repeat-x;
+}
+
+#steps {
+	background: url("/images/steps.png") no-repeat top center;
+}
+
+#advantages h2, #steps h2, #why h2, #works h2  {
+	font-family: "RobotoCondensedLight";
+	margin-bottom: 50px;
+	text-shadow: 1px 1px 2px #fff;
+}
+
+#advantages h2, #why h2 {
+	color: #00345d;
+}
+
+#steps h2, #works h2 {
+	color: #ab1749;
+}
+
 #advantages .button {
 	margin-top: 10px;
 }
@@ -130,4 +152,63 @@ header h2 {
 
 .button:hover {
 	background: url("/images/b_hover.png") no-repeat;
+}
+
+#steps p {
+	font-size: 79%;
+	margin: 0;
+	text-shadow: 1px 1px 2px #fff;
+}
+
+#steps .number {
+	font-size: 200%;
+}
+
+#steps .step:nth-child(1) .number, #steps .step:nth-child(2) .number, #steps .step:nth-child(3) .number {
+	color: #ab1749;
+	margin-top: 15px;
+}
+
+#steps .step:nth-child(5) .number, #steps .step:nth-child(6) .number, #steps .step:nth-child(7) .number {
+	color: #d50000;
+	margin-top: 100px;
+}
+
+.step {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+#steps_table {
+	background: url("/images/steps_icons.png") no-repeat;
+	height: 317px;
+	margin: 0 auto;
+	width: 990px;
+}
+
+.step:nth-child(1) {
+	margin-left: 22px;
+}
+
+.step:nth-child(2) {
+	margin-left: 195px;
+}
+
+.step:nth-child(3) {
+	margin-left: 168px;
+}
+
+.step:nth-child(5) {
+	margin: 30px 0 0 163px;
+}
+
+.step:nth-child(6) {
+	margin: 30px 0 0 182px;
+}
+
+.step:nth-child(7) {
+	margin: 30px 0 0 212px;
 }

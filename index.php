@@ -90,6 +90,43 @@
 		</div>
 	</div>
 
+	<!-- БЛОК STEPS -->
+
+	<div class="steps">
+		<div id="steps">
+			<h2 class="wow flipInX">Порядок работы</h2>
+			<div id="steps_table">
+				<div class="step wow slideInLeft">
+					<p class="number">01</p>
+					<p>Вы оставляете заявку</p>
+				</div>
+				<div class="step wow slideInLeft">
+					<p class="number">03</p>
+					<p>Мы готовим прототип, в который<br />Вы можете вносить коррективы</p>
+				</div>
+				<div class="step wow slideInLeft">
+					<p class="number">05</p>
+					<p>Запускаем рекламу<br />и получаем Вам первых клиентов</p>
+				</div>
+				<div class="clear"></div>
+				<div class="step wow slideInRight">
+					<p class="number">02</p>
+					<p>Мы созваниваемся с Вами<br />и консультируем Вас, опираясь<br />на специфику Вашего бизнеса</p>
+				</div>
+				<div class="step wow slideInRight">
+					<p class="number">04</p>
+					<p>Делаем полностью лендинг,<br />в который Вы также можете<br />вносить коррективы</p>
+				</div>
+				<div class="step wow slideInRight">
+					<p class="number">06</p>
+					<p>Вы оплачиваете<br />стоимость лендинга,<br />а мы присылаем все<br />исходники, даём<br />доступ к уже работа-<br />ющей рекламной<br />кампании и к<br />первым клиентам</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="button wow swing">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</div>
+		</div>
+	</div>
+
 	<!--[if lt IE 9]>
 	<script src="lib/html5shiv/es5-shim.min.js"></script>
 	<script src="lib/html5shiv/html5shiv.min.js"></script>
