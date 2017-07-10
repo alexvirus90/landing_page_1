@@ -127,6 +127,192 @@
 		</div>
 	</div>
 
+	<!-- БЛОК WHY -->
+
+	<div class="why">
+		<div id="why">
+			<h2 class="wow flipInX">Почему наши лендинги эффективны?</h2>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 wow rotateIn">
+						<img src="images/w_1.png" alt>
+						<p>Все наши лендинги оптимизированы под мобильные устройства</p>
+					</div>
+					<div class="col-md-4 wow rotateIn">
+						<img src="images/w_2.png" alt>
+						<p>Мы используем jQuery – библиотеку JavaScript, которая позволяет делать очень приятную анимацию.Это делает Ваш лендинг более красивым и современным, что, безусловно,положительно скажется на конверсии</p>
+					</div>
+					<div class="col-md-4 wow rotateIn">
+						<img src="images/w_3.png" alt>
+						<p>Оповещение о заявках по SMS.<br />По Вашему желанию мы сможем сделать так, чтобы сразу после заявки Вам отправлять SMS с номером телефона клиента. И Вы сразу сможете позвонить ему. Клиент будет точно приятно шокирован от Вашей скорости!</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="row">
+					<div class="col-md-6 wow rotateIn">
+						<img src="images/w_4.png" alt>
+						<p>Оптимизация рекламной кампании. Сюда входит анализ каждого ключевого запроса: удаление неэффективных, снижение цен на слабоэффективных и повышение цен на высокоэффективные с целью повышение числа клиентов. В результате, Вы гарантированно получаете максимальное число заявок при минимальной её стоимости.</p>
+					</div>
+					<div class="col-md-6 wow rotateIn">
+						<img src="images/w_5.png" alt>
+						<p>В обязательном порядке мы проводим SPLIT-тесты. Например, берётся цена и изменяется в сторону увеличения. Дальше половина клиентов видят повышенную цену, а другая половина – старую цену. И смотрится, от какой половины в итоге больше прибыль. Очень часто получается, что при увеличении цены на 50%, число заявок уменьшается лишь на 10% или не изменяется вовсе. На нашей практике даже бывали случаи, когда количество продаж становится даже больше, поэтому прибыль вырастает сильнее, чем цена.</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="button wow swing">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</div>
+		</div>
+	</div>
+
+<!--	<!-- БЛОК WORKS -->-->
+<!---->
+<!--	<div class="works">-->
+<!--		<div id="works">-->
+<!--			<h2 class="wow flipInX">Наши последние работы и цены на них</h2>-->
+<!--			<div class="container">-->
+<!--				<div class="row mb wow lightSpeedIn">-->
+<!--					<div class="col-md-4">-->
+<!--						<div class="site">-->
+<!--							<a href="images/works/site_1.jpg">-->
+<!--								<img src="images/works/site_1_s.png" alt />-->
+<!--							</a>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Общая стоимость:</div>-->
+<!--							<div class="col-md-6 cell">15000 рублей</div>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Цена заявки:</div>-->
+<!--							<div class="col-md-6 cell">190 рублей</div>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Заявок в неделю:</div>-->
+<!--							<div class="col-md-6 cell">12</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="col-md-4">-->
+<!--						<div class="site">-->
+<!--							<a href="images/works/site_2.jpg">-->
+<!--								<img src="images/works/site_2_s.png" alt />-->
+<!--							</a>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Общая стоимость:</div>-->
+<!--							<div class="col-md-6 cell">10000 рублей</div>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Цена заявки:</div>-->
+<!--							<div class="col-md-6 cell">280 рублей</div>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Заявок в неделю:</div>-->
+<!--							<div class="col-md-6 cell">37</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="col-md-4">-->
+<!--						<div class="site">-->
+<!--							<a href="images/works/site_3.jpg">-->
+<!--								<img src="images/works/site_3_s.png" alt />-->
+<!--							</a>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Общая стоимость:</div>-->
+<!--							<div class="col-md-6 cell">12000 рублей</div>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Цена заявки:</div>-->
+<!--							<div class="col-md-6 cell">160 рублей</div>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Заявок в неделю:</div>-->
+<!--							<div class="col-md-6 cell">48</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="clearfix"></div>-->
+<!--				<div class="row mb wow lightSpeedIn">-->
+<!--					<div class="col-md-4">-->
+<!--						<div class="site">-->
+<!--							<a href="images/works/site_4.jpg">-->
+<!--								<img src="images/works/site_4_s.png" alt />-->
+<!--							</a>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Общая стоимость:</div>-->
+<!--							<div class="col-md-6 cell">15000 рублей</div>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Цена заявки:</div>-->
+<!--							<div class="col-md-6 cell">240 рублей</div>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Заявок в неделю:</div>-->
+<!--							<div class="col-md-6 cell">15</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="col-md-4">-->
+<!--						<div class="site">-->
+<!--							<a href="images/works/site_5.jpg">-->
+<!--								<img src="images/works/site_5_s.png" alt />-->
+<!--							</a>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Общая стоимость:</div>-->
+<!--							<div class="col-md-6 cell">15000 рублей</div>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Цена заявки:</div>-->
+<!--							<div class="col-md-6 cell">220 рублей</div>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Заявок в неделю:</div>-->
+<!--							<div class="col-md-6 cell">37</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="col-md-4">-->
+<!--						<div class="site">-->
+<!--							<a href="images/works/site_6.jpg">-->
+<!--								<img src="images/works/site_6_s.png" alt />-->
+<!--							</a>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Общая стоимость:</div>-->
+<!--							<div class="col-md-6 cell">17000 рублей</div>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Цена заявки:</div>-->
+<!--							<div class="col-md-6 cell">350 рублей</div>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6 cell">Заявок в неделю:</div>-->
+<!--							<div class="col-md-6 cell">24</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="clearfix"></div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</div>-->
+<!---->
+<!--	<!-- БЛОК GUARANTEE -->-->
+<!---->
+<!--	<div class="guarantee">-->
+<!--		<div id="guarantee">-->
+<!--			<div class="container">-->
+<!--				<div class="row">-->
+<!--					<div class="col-md-4 icon wow flash">-->
+<!--						<img src="images/guarantee_icon.png" alt />-->
+<!--					</div>-->
+<!--					<div class="col-md-7 guarantee_text wow flipInY">-->
+<!--						<p>Мы гарантируем наивысшее качество своей работы. Но подобные гарантии дают все. Поэтому мы делаем очень просто: не требуем никакой предоплаты, не требуем даже денег на рекламный бюджет. Мы просто всё делаем, а потом показываем результат в виде эффективного лендинга, анализа проведённых SPLIT-тестов, полностью настроенной и оптимизированной рекламной кампании и реальных клиентов. По этой причине мы боимся не получить оплату, поскольку Вам самим будет невыгодно отказаться от всего этого. Однако, если Вам не понравится, то Вы сможете отказаться от лендинга и не платить за него.</p>-->
+<!--						<p>Согласитесь, что это очень выгодное предложение для Вас, так как Вы не рискуете ни копейкой.</p>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--			<div class="button wow swing">ОСТАВИТЬ ЗАЯВКУ</div>-->
+<!--		</div>-->
+<!--	</div>-->
+
 	<!--[if lt IE 9]>
 	<script src="lib/html5shiv/es5-shim.min.js"></script>
 	<script src="lib/html5shiv/html5shiv.min.js"></script>
