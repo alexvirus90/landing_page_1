@@ -7,3 +7,22 @@
 	font-family: "OSCB";
 	src: url("/fonts/OpenSans-CondBold.woff");
 }
+
+body {
+	color: #3d3d3d;
+	font-family: OSCB;
+	font-size: 13pt;
+	margin: 0;
+	padding: 0;
+}
+
+#menu {
+	background: url("/images/bg_menu.png") repeat-x;
+	height: 41px;
+	padding-top: 13px;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 200;
+}
