@@ -27,7 +27,6 @@
 	<link rel="stylesheet" href="lib/owl-carousel/owl.carousel.css" />
 	<link rel="stylesheet" href="lib/countdown/jquery.countdown.css" />
 
-	<script type="text/javascript" src="/js/functions.js"></script>
 </head>
 <body>
 
@@ -42,7 +41,7 @@
 				<h3>Мы Вам перезвоним<br />через несколько минут</h3>
 				<form action="order.php" name="order" method="post">
 					<div>
-						<input type="text" name="phone" placeholder="Телефон" />
+						<input type="text" name="phone" placeholder="Телефон" required />
 					</div>
 					<div>
 						<input type="submit" name="order" value="Жду звонка!" />
@@ -372,6 +371,7 @@
 	<script src="lib/inputmask/inputmask.js"></script>
 	<script src="lib/inputmask/jquery.inputmask.js"></script>
 	<script src="lib/wow/wow.min.js"></script>
+	<script src="js/functions.js"></script>
 
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 

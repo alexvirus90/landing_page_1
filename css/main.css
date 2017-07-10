@@ -135,6 +135,7 @@ footer p {
 #advantages h2, #steps h2, #why h2, #works h2  {
 	font-family: "RobotoCondensedLight";
 	margin-bottom: 50px;
+	margin-top: 41px;
 	text-shadow: 1px 1px 2px #fff;
 }
 
