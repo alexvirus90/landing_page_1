@@ -1,5 +1,20 @@
 <?php
-
+	require_once "lib/start.php";
+	if (!isset($_SESSION["camp_id"]) || !$_SESSION["camp_id"]) {
+			$data = array();
+			$data["ip"] = ip2long($_SERVER["REMOTE_ADDR"]);
+			$data["utm_source"] = isset($request["utm_source"])? $request["utm_source"] : null;
+			$data["utm_campaign"] = isset($request["utm_campaign"])? $request["utm_campaign"] : null;
+			$data["utm_content"] = isset($request["utm_content"])? $request["utm_content"] : null;
+			$data["utm_term"] = isset($request["utm_term"])? $request["utm_term"] : null;
+			$camp_id = getCampID($data);
+			if (!$camp_id) {
+					$data["ref"] = isset($_SERVER["HTTP_REFERER"])? $_SERVER["HTTP_REFERER"] : null;
+					$data["date"] = time();
+					$camp_id = addCamp($data);
+			}
+			$_SESSION["camp_id"] = $camp_id;
+	}
 ?>
 <!doctype html>
 <!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->

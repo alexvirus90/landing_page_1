@@ -12,8 +12,40 @@ $(document).ready(function() {
 	//Плавный переход через меню по сайту
 	$("#menu a:not(a.order)").on("click", function() {
 		$("html, body").stop().animate({
-			scrollTop: $($(this).attr("href")).offset().top /*- $("#menu").innerHeight()*/
+			scrollTop: $($(this).attr("href")).offset().top - $("#menu").innerHeight()
 		}, DELAY);
+	});
+
+	//Каруселька
+	//Документация: http://owlgraphic.com/owlcarousel/
+	var owl = $(".carousel");
+	owl.owlCarousel({
+		items : 4
+	});
+	owl.on("mousewheel", ".owl-wrapper", function (e) {
+		if (e.deltaY > 0) {
+			owl.trigger("owl.prev");
+		} else {
+			owl.trigger("owl.next");
+		}
+		e.preventDefault();
+	});
+	$(".next_button").click(function(){
+		owl.trigger("owl.next");
+	});
+	$(".prev_button").click(function(){
+		owl.trigger("owl.prev");
+	});
+
+	//Кнопка "Наверх"
+	//Документация:
+	//http://api.jquery.com/scrolltop/
+	//http://api.jquery.com/animate/
+	$(".header").click(function () {
+		$("body, html").animate({
+			scrollTop: 0
+		}, DELAY);
+		return false;
 	});
 
 	//Попап менеджер FancyBox
