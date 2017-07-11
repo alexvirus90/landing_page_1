@@ -21,12 +21,12 @@
 	<link rel="stylesheet" href="/css/main.css" />
 	<link rel="stylesheet" href="/css/fonts.css" />
 	<link rel="stylesheet" href="/css/media.css" />
+	<link rel="stylesheet" href="css/animate.css" />
 	<link rel="stylesheet" href="lib/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link rel="stylesheet" href="lib/font-awesome-4.2.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="lib/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="lib/owl-carousel/owl.carousel.css" />
 	<link rel="stylesheet" href="lib/countdown/jquery.countdown.css" />
-
 </head>
 <body>
 

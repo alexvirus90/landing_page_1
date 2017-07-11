@@ -46,4 +46,8 @@ $(document).ready(function() {
 		return true;
 	});
 
+	//https://github.com/matthieua/WOW
+	var wow = new WOW();
+	wow.init();
+
 });

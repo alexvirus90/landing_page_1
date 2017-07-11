@@ -1,0 +1,31 @@
+body {
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size: 14pt;
+}
+
+.order {
+	margin-top: 15%;
+	text-align: center;
+}
+
+h1 {
+	color: #e00;
+}
+
+p {
+	color: #1c1c1c;
+}
+
+.button {
+	border: medium none;
+	background-color: #2bc6a4;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	font-size: 60%;
+	margin: 0 auto;
+	padding: 10px 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
