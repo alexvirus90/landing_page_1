@@ -1,7 +1,11 @@
 <?php
 	require_once "functions/start.php";
 
-	if (!isset($_SESSION["camp_id"]) || !$_SESSION["camp_id"]) {}
+	if (!isset($_SESSION["split"]) || !$_SESSION["split"]) {
+		$value = array("wow", "no_wow");
+		$rand = mt_rand(0, count($value) - 1);
+		$_SESSION["split"] = $value[$rand];
+	}
 
 	if (!isset($_SESSION["camp_id"]) || !$_SESSION["camp_id"]) {
 			$data = array();
@@ -369,6 +373,18 @@
 			</div>
 		</div>
 	</footer>
+
+	<!-- СООБЩЕНИЕ "ОШИБКА ОТПРАВКИ ФОРМЫ" -->
+
+  <?php if ($message) {?>
+		<script type="text/javascript">
+			alert("<?=$message?>");
+		</script>
+  <?php } ?>
+	<script>
+		var wow = new WOW();
+		<?php if ($_SESSION["split"] == "wow") { ?>wow.init();<?php } ?>
+	</script>
 
 	<!--[if lt IE 9]>
 	<script src="lib/html5shiv/es5-shim.min.js"></script>

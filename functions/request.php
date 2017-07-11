@@ -6,6 +6,7 @@
 		$data["phone"] = $request["phone"];
 		$data["date_order"] = time();
 		$data["camp_id"] = (isset($_SESSION["camp_id"]) && $_SESSION["camp_id"])? $_SESSION["camp_id"] : null;
+		$data["split"] = (isset($_SESSION["split"]) && $_SESSION["split"])? $_SESSION["split"] : null;
 		if (addOrder($data)) {
 			redirect("/order.php");
 		}
