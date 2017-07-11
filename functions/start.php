@@ -11,6 +11,6 @@
 	define("DB_PASSWORD", "");
 	define("DB_NAME", "landing-order1");
 	
-	require_once "D:/OpenServer/domains/landingpage1.local/lib/functions.php";
-	require_once "D:/OpenServer/domains/landingpage1.local/lib/request.php";
+	require_once "D:/OpenServer/domains/landingpage1.local/functions/functions.php";
+	require_once "D:/OpenServer/domains/landingpage1.local/functions/request.php";
 ?>

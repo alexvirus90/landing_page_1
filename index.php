@@ -1,5 +1,8 @@
 <?php
-	require_once "lib/start.php";
+	require_once "functions/start.php";
+
+	if (!isset($_SESSION["camp_id"]) || !$_SESSION["camp_id"]) {}
+
 	if (!isset($_SESSION["camp_id"]) || !$_SESSION["camp_id"]) {
 			$data = array();
 			$data["ip"] = ip2long($_SERVER["REMOTE_ADDR"]);
